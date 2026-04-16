@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เกี่ยวกับเรา | KP ADvance System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&family=Sarabun:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">KP<span>ADvance</span></a>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="about.html" class="active">เกี่ยวกับเรา</a></li>
+                    <li><a href="services.html">บริการ & สินค้า</a></li>
+                    <li><a href="contact.html">ผลงาน & ติดต่อ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>ทีมผู้เชี่ยวชาญของเรา</h2>
+                <p>ทีมงานมืออาชีพที่มีประสบการณ์ พร้อมดูแลระบบความปลอดภัยของคุณ</p>
+            </div>
+            
+            <div class="services-grid grid-reveal" style="grid-template-columns: repeat(3, 1fr);">
+                <div class="team-card">
+                    <div class="team-img-wrapper"><img src="images/ceo.jpg" alt="คุณณรัณรัชต์ วันดี"></div>
+                    <h3>คุณณรัณรัชต์ วันดี</h3>
+                    <p style="color: var(--primary-red);">IT Product Specialist</p>
+                </div>
+                
+                <div class="team-card" style="transform: scale(1.05); border-color: var(--primary-red);">
+                    <div class="team-img-wrapper" style="width: 180px; height: 180px;"><img src="images/engineer.jpg" alt="คุณก้องพัฐ เขียวค้า" style="transform: scale(1.4);"></div>
+                    <h3>คุณก้องพัฐ เขียวค้า</h3>
+                    <p style="color: var(--primary-red); font-weight: bold;">Technical Manager</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-img-wrapper"><img src="images/customer-support.jpg" alt="คุณเจษฎาพร เขียวค้า" style="transform: scale(1.5);"></div>
+                    <h3>คุณเจษฎาพร เขียวค้า</h3>
+                    <p style="color: var(--primary-red);">Customer Service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer><div class="container" style="text-align: center;"><p>© KP ADvance System Co., Ltd.</p></div></footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Allow core static assets for rendering and indexing
+Allow: /_next/static/
+Allow: /images/
+Allow: /videos/
+
+Sitemap: https://kpavance.pages.dev/sitemap.xml
